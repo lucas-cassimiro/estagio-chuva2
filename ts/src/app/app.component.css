@@ -38,7 +38,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Estilo para o cabeçalho */
+/* estilo do cabeçalho  principal*/
 .header {
   background-color: #fdf1eb;
   color: #5a5858;
@@ -54,25 +54,25 @@ h2 {
   margin-top: 0;
 }
 
-.um,
-.dois,
-.tres {
+.titleone,
+.titletwo,
+.itlethree {
   margin-left: 240px;
 }
 
-.um {
+.titleone {
   margin-bottom: 10px;
   top: 30px;
   font-size: 14px;
 }
 
-.dois {
+.titletwo {
   margin-bottom: 0px;
   font-style: normal;
   font-size: 20px;
 }
 
-.tres {
+.itlethree{
   margin-bottom: 0;
   font-size: 12px;
   margin-bottom: 5px;
@@ -80,18 +80,18 @@ h2 {
   font-weight: 400;
 }
 
-.quatro,
-.cinco {
+.titlefour,
+.titlefive {
   position: absolute;
   bottom: 0;
 }
 
-.quatro {
+.titlefour {
   top: 15px;
   right: 150px;
 }
 
-.cinco {
+.titlefive {
   right: 150px;
   top: 40px;
 }
@@ -116,7 +116,6 @@ h2 {
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
 
-/* Estilo quando o seletor é suspenso */
 .select option {
   padding: 8px 12px;
   font-size: 16px;
@@ -125,10 +124,10 @@ h2 {
 }
 
 .fa-globe {
-  background-position: right 8px; /* Ajustando a posição da seta para a direita */
+  background-position: right 8px; 
 }
 
-.fotopessoa {
+.personsmall {
   width: 40px;
   float: right;
   margin-right: -544px;
@@ -154,8 +153,10 @@ h2 {
   align-items: center;
   font-size: 12px;
 }
+/*fim do header*/
 
-.imagem {
+/* começo do side bar*/
+.image {
   position: relative;
   margin-top: -50px;
   display: block;
@@ -177,6 +178,7 @@ h2 {
   box-shadow: 0px 0px 8px 2px #4f4f4f;
 }
 
+
 .box {
   background: linear-gradient(to bottom, #ffb354, #ee7a3a);
   border: 1px solid #ccc;
@@ -191,6 +193,7 @@ h2 {
   color: #f4f4f4;
   font-size: 30px;
 }
+
 
 .menu {
   display: flex;
@@ -224,19 +227,24 @@ h2 {
   background-color: #fdf1eb;
   border-radius: 10px;
 }
+/* final do side bar*/
 
-.analise {
-  margin-top: -40px;
-  margin-bottom: 60px;
-  margin-left: 40px;
-  color: white;
-  line-height: 25px;
+/* começo da imagem principal do video*/
+
+.analise h2  {
+  margin-top: -33px; /* Ajusta a margem superior para sobrepor a margem do h1 */
+  margin-bottom: 0; /* Remove a margem inferior padrão */
+  margin-left: 70px; /* Define a margem esquerda como zero para encostar no lado esquerdo */
+  color: white; /* Define a cor do texto */
+  width: 50%; /* Permite que o contêiner se ajuste automaticamente ao conteúdo */
+  line-height: 1.5; /* Define a altura da linha para evitar espaçamento extra */
+  display: inline-block;
 }
 
-.titulocimavideo {
+.titlevideo {
   bottom: 80px;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 100px;
   color: #ed7839;
   margin-left: 7px;
   font-size: 20px;
@@ -284,31 +292,36 @@ h2 {
   padding: 20px;
   color: rgb(255, 255, 255);
 }
-.pessoa {
+.person{
   font-size: 34px;
   line-height: 25px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  margin-top: -13px;
-  margin-bottom: -1px;
-  margin-left: -50px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: -34px;
+  letter-spacing: 2px;
 }
-.uni {
+.university {
   font-size: 20px;
   line-height: 25px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  margin-bottom: 20px;
-  margin-left: -30px;
+  margin-bottom: -30px;
+  margin-left: -20px;
+  letter-spacing: 1px;
 }
 
 .author-info img {
   width: 84px;
   height: 86px;
   border-radius: 50%;
-  margin-bottom: -78px;
-  margin-left: -535px;
+  margin-bottom: -89px;
+  margin-left: -560px;
 }
+ /* fim da imagem principal */
+
+ /* começo dos detalhes*/
 
 .details-box {
   position: absolute;
@@ -336,7 +349,7 @@ h2 {
   width: 200px;
 }
 
-.como {
+.work {
   color: #ed7839;
   font-family: "Roboto";
   line-height: 25px;
@@ -389,14 +402,14 @@ h2 {
   color: #5c5c5c;
   font-size: 12px;
 }
-.autores {
+.Authors {
   font-family: "Quicksand", sans-serif;
   color: #5c5c5c;
   font-size: 15px;
   width: 700px;
   margin-bottom: 5px;
 }
-.autoresub {
+.span1 {
   font-family: "Quicksand", sans-serif;
   color: #5c5c5c;
   font-size: 14px;
@@ -404,7 +417,7 @@ h2 {
   letter-spacing: 2%;
   line-height: 16.8px;
 }
-.terc {
+.span {
   font-family: "Quicksand", sans-serif;
   color: #9c9a9a;
   font-size: 12px;
@@ -429,22 +442,34 @@ h2 {
   display: none;
 }
 
+/* fim de detalhes */
+
+/* começo da box de resumo */
+
 .resumo-box {
   transition: all 0.3s ease-in-out;
   position: absolute;
-  margin-top: 100px; /* Ajuste conforme necessário */
-  left: 250px; /* Mesma posição horizontal que a div de imagem */
+  margin-top: 100px;
+  left: 250px; 
   width: calc(
     100% - 450px
-  ); /* Largura total menos a largura da barra lateral */
+  ); 
+  margin-bottom: 100px;
   padding: 26px;
   background-color: #ffffff;
   border: 1px solid #ececec;
 }
 
+
+/* começo do container de sucesso */
+
 .container-success {
   display: none;
   flex-direction: column;
+  font-family: "Quicksand" serif;
+  font-style: normal;
+  font-weight: 400;
+  
 }
 
 .container-success > div {
@@ -461,6 +486,9 @@ h2 {
 
 .container-success > div span {
   margin-top: 18px;
+  color: #595959;
+  font-size: 14px;
+ 
 }
 
 .container-success > div a {
@@ -495,34 +523,51 @@ h2 {
   text-decoration: none;
   border-bottom: 1px solid #ed7839;
 }
+/* acaba o container de sucesso */
 
-.resumo-box2 {
+/* começa o container de discussões */
+.disc-box2 {
   position: relative;
-  top: 180px; /* Ajuste conforme necessário */
-  left: 0; /* Mesma posição horizontal que a div de imagem */
-  width: calc(100% - 1px); /* Largura total menos a largura da barra lateral */
+  top: 180px; 
+  left: 0; 
+  margin-top: 40px;
+  margin-left: -27px;
+  width: calc(100% - -54px);
   padding: 26px;
   background-color: #ffffff;
   border: 1px solid #ececec;
 }
 
-.resumo-box3 {
+.disc-box3 {
   position: absolute;
-  top: 100; /* Ajuste conforme necessário */
-  /* Mesma posição horizontal que a div de imagem */
-  width: calc(100% - 1px); /* Largura total menos a largura da barra lateral */
+  top: 100;
+  width: calc(100% - 1px); 
   padding: 26px;
   background-color: #ffffff;
   border: 1px solid #ececec;
   display: none;
 }
-
+.disc-title {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #4e4e4e;
+  font-weight: 500px;
+  width: calc(100% + 250px);
+  text-align: left;
+  margin-left: 17px;
+  line-height: 25px;
+}
+/* footer */
 .container-footer {
   margin-top: 200px;
 }
+/* footer */
 
+/* container resumo */
 .resumo-box p {
-  max-width: 100%; /* Ou o valor desejado */
+  max-width: 100%; 
 }
 
 .resumo-title {
@@ -559,7 +604,9 @@ h2 {
   font-weight: 400px;
   line-height: 22.75px;
   letter-spacing: 2%;
+  margin-bottom: -0px;
 }
+/* fim do resumo */
 
 .resumo-content3 {
   font-family: "Quicksand", sans-serif;
@@ -573,7 +620,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.resumo-content2 {
+.disc-content2 {
   font-family: "Quicksand", sans-serif;
   color: #ed7839;
   font-size: 20px;
@@ -584,7 +631,8 @@ h2 {
   margin-top: 10px;
   margin-bottom: 30px;
 }
-.paragrafo {
+
+.Paragraph {
   font-family: "Quicksand", sans-serif;
   color: #5c5c5c;
   font-size: 14px;
@@ -594,10 +642,23 @@ h2 {
   margin-left: 270px;
   margin-bottom: 20px;
 }
+.paragrafer{
+  font-family: "Quicksand", sans-serif;
+  color: #5c5c5c;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
 
 .icone3 {
-  display: inline-block; /* Tornando os ícones elementos de bloco */
-  margin-top: 50px; /* Espaço entre a frase e os ícones */
+  display: inline-block;
+  margin-top: 50px; 
   margin-left: 180px;
 }
 
